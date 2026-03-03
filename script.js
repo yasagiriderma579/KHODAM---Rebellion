@@ -59,21 +59,21 @@ function initOverlay(){
 
 // Sample images (portrait oriented via query params)
 const images = [
-  {src: '/asset/Characters/bara.jpeg', star:'💪' , caption:'Bara'},
-  {src: '/asset/Characters/elfie.jpeg', star:'🏹' , caption:'Elfie'},
-  {src: '/asset/Characters/onyx.jpeg', star:'☠️' , caption:'Onyx'},
-  {src: '/asset/Characters/yume.jpeg', star:'🥕' , caption:'Yume'},
-  {src: '/asset/Characters/kaiju.jpeg', star:'🐲' , caption:'Kaiju'},
-  {src: '/asset/Characters/nimrod.jpeg', star:'🌊' , caption:'Nimrod'},
-  {src: '/asset/Characters/rook.jpeg', star:'🗡️' , caption:'Rook'},
-  {src: '/asset/Characters/wage.jpeg', star:'🔮' , caption:'Wage'},
-  {src: '/asset/Characters/lyn.jpeg', star:'🎀' , caption:'Lyn'},
-  {src: '/asset/Characters/renard.jpeg', star:'⭐' , caption:'Renard'},
-  {src: '/asset/Characters/hera.jpeg', star:'🤖' , caption:'Hera'},
-  {src: '/asset/Characters/ferin.jpeg', star:'🍁' , caption:'Ferin'},
-  {src: '/asset/Characters/val.jpeg', star:'🕯️' , caption:'Val'},
-  {src: '/asset/Characters/fedz.jpeg', star:'♠️' , caption:'Fedz'},
-  {src: '/asset/Characters/nia.jpeg', star:'🌷' , caption:'Nia'}
+  {src: 'asset/Characters/bara.jpeg', star:'💪' , caption:'Bara'},
+  {src: 'asset/Characters/elfie.jpeg', star:'🏹' , caption:'Elfie'},
+  {src: 'asset/Characters/onyx.jpeg', star:'☠️' , caption:'Onyx'},
+  {src: 'asset/Characters/yume.jpeg', star:'🥕' , caption:'Yume'},
+  {src: 'asset/Characters/kaiju.jpeg', star:'🐲' , caption:'Kaiju'},
+  {src: 'asset/Characters/nimrod.jpeg', star:'🌊' , caption:'Nimrod'},
+  {src: 'asset/Characters/rook.jpeg', star:'🗡️' , caption:'Rook'},
+  {src: 'asset/Characters/wage.jpeg', star:'🔮' , caption:'Wage'},
+  {src: 'asset/Characters/lyn.jpeg', star:'🎀' , caption:'Lyn'},
+  {src: 'asset/Characters/renard.jpeg', star:'⭐' , caption:'Renard'},
+  {src: 'asset/Characters/hera.jpeg', star:'🤖' , caption:'Hera'},
+  {src: 'asset/Characters/ferin.jpeg', star:'🍁' , caption:'Ferin'},
+  {src: 'asset/Characters/val.jpeg', star:'🕯️' , caption:'Val'},
+  {src: 'asset/Characters/fedz.jpeg', star:'♠️' , caption:'Fedz'},
+  {src: 'asset/Characters/nia.jpeg', star:'🌷' , caption:'Nia'}
 ];
 
 function makeCard(item){
@@ -108,3 +108,4 @@ document.addEventListener('DOMContentLoaded', () => {
   renderGallery();
   initOverlay();
 });
+
